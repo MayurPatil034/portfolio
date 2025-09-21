@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .portfolio-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .circle-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+
+
+        .center-content {
+            text-align: center;
+        }
+
+
+        #profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+            object-fit: cover;
+        }
+
+
+        #name {
+            font-size: 2.5em;
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+        }
+
+
+        .social-links {
+            margin-bottom: 30px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+
+        .section {
+            border: 2px solid #000;
+            padding: 15px 25px;
+            margin-top: 25px;
+            text-align: left;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="portfolio-container">
+
+
+        <div class="center-content">
+            <img src="profile_img.jpg" alt="Profile Photo" class="circle-image" width="150" height="150">
+        </div>
+
+
+        <div class="center-content">
+            <h1 id="name">MAYUR PATIL</h1>
+        </div>
+
+
+        <div class="social-links center-content">
+            <a href="https://github.com/MayurPatil034">Git Link</a>
+            <a
+                href="https://www.linkedin.com/in/mayurpatil034?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">LinkedIn</a>
+            <a href="https://leetcode.com/u/am_mayur/">LeetCode</a>
+        </div>
+
+
+        <div id="about" class="section">
+            <h2>About Section</h2>
+            <p>
+                Hello! I'm Mayur Patil, a passionate with a keen interest in building web applications and
+                solving complex problems. I have experience in various programming languages and frameworks, and I love
+                to solve leetcode problems.
+            </p>
+        </div>
+
+
+        <div id="project" class="section">
+            <h2>Project</h2>
+            <p>
+                Here are some of the projects I've worked on:
+            <ul>
+                <li><b>Project 1:</b> This project is a secure and feature-rich net banking application developed for
+                    the Android platform using Java in Android Studio. The application provides users with essential
+                    mobile banking functionalities, from viewing account details to performing secure fund transfers.
+                    The backend architecture is powered by a NoSQL database (specifically, Google's Firebase Firestore).
+                </li>
+                <a href="https://github.com/MayurPatil034/NetBanking-PROTOTYPE-">NetBanking link </a>
+                <li><b>Project 2:</b> Under Developement</li>
+
+            </ul>
+            </p>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact Details</h2>
+            <p>
+                This is where you can list ways for people to get in touch with you.
+            </p>
+            <p>
+                <b>Email:</b> mspatil.work@outlook.com<br>
+                <b>Phone:</b> +91 7057942004
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
